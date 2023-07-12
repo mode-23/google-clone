@@ -12,7 +12,9 @@ const Header = () => {
             Google
         </Link>
         <Search />
-      <div className="toggleDark-Light">bvru</div>
+      <div className="toggleDark-Light">
+        google
+      </div>
       </div>
         <Nav />
         </div>
