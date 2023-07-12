@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ResultContextProvider>
-    <BrowserRouter basename='/google-color'>
+    <BrowserRouter basename='/google-clone/'>
     <App />
     </BrowserRouter>
     </ResultContextProvider>
