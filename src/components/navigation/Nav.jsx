@@ -9,10 +9,10 @@ const Nav = () => {
   return (
     <nav className='NavBar'>
      <ul>
-          <li><NavLink to='/' activeclassname='active' exact="true"><HiOutlineSearch /> all</NavLink></li>
-          <li><NavLink to='/news' activeclassname='active' exact="true"><ImNewspaper /> news</NavLink></li>
-          <li><NavLink to='/images' activeclassname='active' exact="true"><IoImageOutline /> images</NavLink></li>
-          <li><NavLink to='/videos' activeclassname='active' exact="true"><RiVideoLine /> videos</NavLink></li>
+          <li><NavLink to='/' activeclassname='active' exact="true"><HiOutlineSearch /> All</NavLink></li>
+          <li><NavLink to='/news' activeclassname='active' exact="true"><ImNewspaper /> News</NavLink></li>
+          <li><NavLink to='/images' activeclassname='active' exact="true"><IoImageOutline /> Images</NavLink></li>
+          <li><NavLink to='/videos' activeclassname='active' exact="true"><RiVideoLine /> Videos</NavLink></li>
      </ul>
     </nav>
   )
